@@ -38,7 +38,10 @@ The manuscript determines when stationary fractional Lawson cones in $$\mathbb{R
 
 ## Citing a manuscript
 
-Use the full manuscript title and the date printed in the PDF. Include the [repository URL](https://github.com/mingfeng87/Nonlocal-Minimal-Surfaces) and the commit hash or a commit-specific PDF link for the version consulted, so that the cited draft can be identified after revisions.
+Use the full manuscript title and the date printed in the PDF, use M. Zhao et al. as the author of PDF files. Include the
+[repository URL](https://github.com/mingfeng87/Nonlocal-Minimal-Surfaces)
+and the commit hash or a commit-specific PDF link for the version consulted,
+so that the cited draft can be identified after revisions.
 
 * * *
 
