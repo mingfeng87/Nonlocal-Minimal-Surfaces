@@ -1,6 +1,6 @@
 # Nonlocal Minimal Surfaces
 
-This repository collects research manuscripts and drafts on nonlocal minimal surfaces and fractional perimeter, centered on two classical problems in the nonlocal setting: the Bernstein problem for entire minimizing graphs, and the stability of singular minimizing cones. The first manuscript constructs nonaffine entire nonlocal minimal graphs over $$\mathbb{R}^8$$ for every fractional exponent $$s \in (0,1)$$, providing the nonlocal counterpart of the Bombieri–De Giorgi–Giusti example. The second manuscript determines, for every $$m,n \ge 1$$ and every $$0<s<1$$, when stationary fractional Lawson cones in $$\mathbb{R}^m \times \mathbb{R}^n$$ are stable, uncovering the exponent thresholds at which stability transitions occur.
+This repository collects research manuscripts and drafts on nonlocal minimal surfaces and fractional perimeter, centered on two classical problems in the nonlocal setting: the Bernstein problem for entire minimizing graphs, and the stability of singular minimizing cones. The first manuscript constructs nonaffine entire nonlocal minimal graphs over $$\mathbb{R}^8$$ for every fractional exponent $$s \in (0,1)$$, providing the nonlocal counterpart of the Bombieri–De Giorgi–Giusti example. The second manuscript determines, for every $$m,n \ge 1$$ and every $$0<s<1$$, when stationary fractional Lawson cones in $$\mathbb{R}^m \times \mathbb{R}^n$$ are stable, uncovering the exponent thresholds at which stability transitions occur. The third manuscript constructs an entire nonaffine nonlocal minimal graph over $\mathbb{R}^7$ for the fixed order $s = 1/10$, using the stationary $(4,3)$ Lawson cone, an explicit Hardy gap, and a finite interval certificate for the cap comparison.
 
 **Draft status:** Both manuscripts present candidate proofs. The team is continuing to verify every argument. The summaries below describe the statements and proofs as currently drafted.
 
@@ -36,6 +36,20 @@ The manuscript determines when stationary fractional Lawson cones in $$\mathbb{R
 
 * * *
 
+### 3. An entire nonlocal minimal graph over $\mathbb{R}^7$
+
+**[Read the PDF](https://github.com/mingfeng87/Nonlocal-Minimal-Surfaces/blob/main/nonlocal_bdg_r7.pdf)**
+
+| Detail | Value |
+|---|---|
+| **Dimension** | $7$ (graph over $\mathbb{R}^7$, subgraph in $\mathbb{R}^8$) |
+| **Range** | $s = 1/10$ |
+| **Length** | 152 pages |
+
+For the fixed order $s = 1/10$, the manuscript constructs a smooth nonaffine function $u:\mathbb{R}^7 \to \mathbb{R}$ whose subgraph locally minimizes the fractional $s$-perimeter in $\mathbb{R}^8$ against all measurable compact perturbations, and whose asymptotic growth is of order $p \in (14/5, 3)$ with cylindrical blow-down (Theorem 1.1). The construction starts from the stationary $(4,3)$ Lawson cone, for which the manuscript proves an explicit Hardy gap larger than $1/45$ and locates the slow radial root in $(9/5, 2)$ (Theorem 1.2). Canonical caps give a calibration of the cone. The phase $(4,3)$ comparison is proved analytically, while the phase $(3,4)$ sign is supplied by a finite interval certificate over $520$ exact source intervals on $14$ logarithmic slabs, replayable by a companion Python program. Signed tangent layers and exact polynomial moments control the tip, reciprocal-source estimates control the middle and exterior ranges, and ordered graph barriers are matched and closed to produce the entire graph. The draft status note states that the candidate proof was obtained on November 07, 2026, through extensive dialogue-based training with AI and is currently under verification.
+
+* * *
+
 ## Citing a manuscript
 
 Use the full manuscript title and the date printed in the PDF, use M. Zhao et al. as the author of PDF files. Include the
@@ -51,6 +65,7 @@ so that the cited draft can be identified after revisions.
 |---|---|
 | [`Nonlocal_BDG_Graphs_All_s.pdf`](https://github.com/mingfeng87/Nonlocal-Minimal-Surfaces/blob/main/Nonlocal_BDG_Graphs_All_s.pdf) | Dimension 8, every $$s \in (0,1)$$, nonaffine entire minimizing graphs |
 | [`Nonlocal_Lawson_cone_stability.pdf`](https://github.com/mingfeng87/Nonlocal-Minimal-Surfaces/blob/main/Nonlocal_Lawson_cone_stability.pdf) | All dimensions $$N=m+n$$, every $$0<s<1$$, stability thresholds for fractional Lawson cones |
+| [`nonlocal_bdg_r7.pdf`](https://github.com/mingfeng87/Nonlocal-Minimal-Surfaces/blob/main/nonlocal_bdg_r7.pdf) | Dimension 7, $s = 1/10$, entire nonaffine nonlocal minimal graph |
 
 * * *
 
